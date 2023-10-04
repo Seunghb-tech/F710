@@ -35,5 +35,9 @@ def generate_launch_description():
             namespace='',
             output='screen',
             remappings=[('/joy', 'joy'), ('/cmd_vel', 'cmd_vel')],
+            parameters=[
+                {"linear_factor": 0.5},
+                {"angular_factor": 0.5}
+            ],
         )
     ])
