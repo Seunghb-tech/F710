@@ -7,8 +7,8 @@ from geometry_msgs.msg import Twist
 class JoyToCmdVel(Node):
     def __init__(self):
         super().__init__('joy_to_cmd_vel')
-        self.declare_parameter("linear_factor", 1)
-        self.declare_parameter("angular_factor", 1)
+        self.declare_parameter("linear_factor", 1.0)
+        self.declare_parameter("angular_factor", 1.0)
         self.linear_factor = self.get_parameter("linear_factor").value
         self.angular_factor = self.get_parameter("angular_factor").value
         self.subscription = self.create_subscription(
