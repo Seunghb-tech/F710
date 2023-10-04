@@ -1,4 +1,4 @@
-# This package is to change the F710's axes[3] & axes[2] signals into linear.x & angular.z ones of cmd_vel topic.  
+## This package is to change the F710's axes[3] & axes[2] signals into linear.x & angular.z ones of cmd_vel topic.  
 ## Usage
 
 $ cd turtlebot3_ws
