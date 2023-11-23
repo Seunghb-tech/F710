@@ -7,7 +7,7 @@ $ git clone https://github.com/Seunghb-tech/F710.git
 
 $ cd ..
 
-$ colcon build
+$ colcon build --packages-select my_joystic_pkg
 
 $ source install/local_setup.bash
 
