@@ -24,6 +24,7 @@ setup(
     entry_points={
         'console_scripts': [
             'joy_to_cmd_vel_node = my_joystic_pkg.joy_to_cmd_vel:main',
+            'joy_to_cmd_vel_stamped_node = my_joystic_pkg.joy_to_cmd_vel_stamped:main',
         ],
     },
 )
