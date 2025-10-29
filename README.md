@@ -3,7 +3,7 @@
 
 $ cd turtlebot3_ws/src
 
-$ git clone https://github.com/Seunghb-tech/F710.git
+$ git clone https://github.com/Seunghb-tech/my_joystic_pkg
 
 $ cd ..
 
@@ -16,6 +16,8 @@ $ ros2 run joy joy_node
 $ ros2 run my_joystic_pkg joy_to_cmd_vel_node [--ros-args -p linear_factor:=0.5 -p angular_factor:=0.5]
 
 or
+
+ros2 run my_joystic_pkg joy_to_cmd_vel_stamped_node [--ros-args -p linear_factor:=0.5 -p angular_factor:=0.5]
 
 $ ros2 launch my_joystic_pkg joystic_control.launch.py
 
