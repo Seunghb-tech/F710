@@ -3,7 +3,7 @@
 
 $ cd turtlebot3_ws/src
 
-$ git clone https://github.com/Seunghb-tech/my_joystic_pkg
+$ git clone https://github.com/Seunghb-tech/F710/my_joystic_pkg
 
 $ cd ..
 
