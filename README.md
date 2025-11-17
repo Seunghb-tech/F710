@@ -23,5 +23,5 @@ $ ros2 launch my_joystic_pkg joystic_control.launch.py
 
 or 
 
-ros2 launch my_joystic_pkg joystic_control.launch.py # for geometry_msgs/TwistStamped
+ros2 launch my_joystic_pkg joystic_stamped_control.launch.py # for geometry_msgs/TwistStamped
 
