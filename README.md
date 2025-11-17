@@ -20,6 +20,8 @@ or
 ros2 run my_joystic_pkg joy_to_cmd_vel_stamped_node [--ros-args -p linear_factor:=0.5 -p angular_factor:=0.5]
 
 $ ros2 launch my_joystic_pkg joystic_control.launch.py
+
 or 
+
 ros2 launch my_joystic_pkg joystic_control.launch.py # for geometry_msgs/TwistStamped
 
